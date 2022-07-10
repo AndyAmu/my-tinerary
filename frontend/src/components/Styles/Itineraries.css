@@ -1,0 +1,45 @@
+.card-itineraries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+    margin: 1rem;
+}
+
+
+@media (max-width: 940px){
+    .card-itineraries {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 775px){
+    .card-itineraries {
+        width: 60vh;
+    }
+}
+
+@media (max-width: 580px){
+    .card-itineraries {
+        width: 40vh;
+    }
+}
+
+
+
+@media (max-width: 580px){
+.panel-comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+@media (max-width: 580px){
+    .sendIcon {
+        margin-left: 2rem!important;
+        margin-right: 2rem!important;
+        margin-bottom: 2rem!important;
+    }
+}

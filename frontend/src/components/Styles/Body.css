@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+main {
+    min-height: 90vh;
+}
+
+.navegador {
+    font-family: 'Righteous', cursive !important;
+}
+
+.logo-principal {
+    width: 8rem;
+    height: 3rem;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.imagenprincipal {
+    background-image: url(../images/playa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000002f;
+    background-blend-mode: darken;
+
+}
+
+.Body-img {
+    min-height: 92vh;
+}
+
+.contenedor-textos-body {
+    margin-top: 10rem;
+}
+
+.titulo-centro {
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.titulo-centro2 {
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: .5px #ffc107;
+}
+
+.Tinerary {
+    color: #ffc107;
+}
+
+@media (min-width:960px) {
+    .titulo-centro {
+        z-index: 1;
+    }
+}
+
+@media (max-width:350px) {
+    .titulo-centro {
+        font-size: 3.4rem;
+    }
+}
+
+.texto-body {
+    margin-top: 8rem;
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+
+@media (max-width:1084px) {
+    .texto-body {
+        z-index: 1;
+        text-align: center;
+    }
+}
+
+@media (max-width:425px) {
+    .texto-body {
+        font-size: 1.5rem;
+    }
+}
+
+.imagenDos {
+    background-image: url(../images/img-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0000001f;
+    z-index: 1;
+    background-blend-mode: darken
+}
+
+.Body-img2 {
+    height: 80vh;
+}
+
+/* Boton llamativo */
+.boton-llamativo {
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+
+.boton-lindo:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:425px) {
+    .button-85 {
+        width: 15rem;
+        height: 5rem;
+    }
+}
+
+
+
+/* Botn fachero */
+.button-85 {
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+    -webkit-text-stroke: 1px black;
+    font-size: 2rem;
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #ffc107;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20rem;
+    height: 5rem;
+}
+
+@media (min-height: 500px) {
+    .button-85 {
+        width: 19rem;
+        height: 5rem;
+        justify-content: space-around;
+    }
+}
+
+.button-85:before {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background: #ffc107;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}

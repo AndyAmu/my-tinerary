@@ -1,0 +1,32 @@
+.logo {
+    width: 7rem;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+    transition: .3s;
+}
+
+a:hover{
+    color: #ffc107!important;
+    transition: .5s;
+}
+
+
+
+.NavBar {
+    height: 8vh!important;
+    background-color: #1b1919!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+
+
+
+.MuiMenuItem-root {
+    background-color: transparent!important;
+    color: black!important;
+}

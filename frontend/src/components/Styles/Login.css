@@ -1,0 +1,14 @@
+.login {
+    min-height: 90vh;
+    background-image: url(../images/playa.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signIn {
+    width: 20rem!important;
+}

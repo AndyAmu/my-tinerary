@@ -1,0 +1,46 @@
+.contenedor-cities {
+    background-image: url(http://es.globewalls.art/wp-content/uploads/2018/10/Manchas-claro-oscuro-fondo.jpg);
+    background-color: #0000002f;
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -1rem;
+    padding-bottom: 1rem;
+    min-height: 90.4vh;
+}
+
+.img-cities1 {
+    border-radius:1rem 1rem 0rem 0rem;
+}
+
+.input {
+    text-align: center;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+}
+
+.buscador {
+    padding-top: 2rem;
+}
+
+.noencontro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.notfound {
+    font-size: 5rem;
+    color: white;
+    -webkit-text-stroke: 1px #000000;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .MuiImageList-root {
+        display: flex!important;
+        flex-direction: column;        
+    }
+}

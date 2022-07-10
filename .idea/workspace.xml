@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="8b81d349-ab79-46c9-8934-c09862ee90d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/config/Validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/Validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/singControllers.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/singControllers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/GoogleSignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/GoogleSignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/GoogleSignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/GoogleSignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/pages/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/pages/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/userActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="8b81d349-ab79-46c9-8934-c09862ee90d7" name="Changes" comment="" />
+>>>>>>> 20813bbd5df105273f98e7f0614ddc3829b45cee
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BMwvaZJU9bwNjhhixUj5rFCX1N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gasto/OneDrive/Escritorio/MindHub/Sprint/Sprint 4/mytinerary-amuchastegui-andres&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b81d349-ab79-46c9-8934-c09862ee90d7" name="Changes" comment="" />
+      <created>1656729494871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656729494871</updated>
+      <workItem from="1656729498501" duration="77000" />
+<<<<<<< HEAD
+      <workItem from="1657023448365" duration="50000" />
+=======
+      <workItem from="1657023525618" duration="64000" />
+>>>>>>> 20813bbd5df105273f98e7f0614ddc3829b45cee
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
